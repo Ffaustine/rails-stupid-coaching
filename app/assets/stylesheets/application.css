@@ -13,3 +13,19 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 16px;
+  margin: 16px;
+}
+
+.your-question, .your-answer{
+  border-left: 5px solid lightgrey;
+  padding-left: 16px;
+}
